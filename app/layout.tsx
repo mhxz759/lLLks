@@ -24,8 +24,6 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body className={`${_inter.className} font-sans antialiased`}>
-        <RegisterSW />
-        <AdScripts />
         {children}
       </body>
     </html>
